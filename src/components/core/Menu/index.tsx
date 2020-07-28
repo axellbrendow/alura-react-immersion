@@ -1,15 +1,17 @@
 import React from "react";
 
 import Logo from "components/core/Logo";
+import ButtonLink from "components/core/ButtonLink";
+
+import { translate } from "i18n/ConfiguredIntlProvider";
 
 import * as S from "./styles";
-import ButtonLink from "components/core/ButtonLink";
 
 const Menu = () => {
   return (
     <S.Menu>
       <Logo />
-      <ButtonLink>New Video</ButtonLink>
+      <ButtonLink>{translate({ id: "newVideo" })}</ButtonLink>
     </S.Menu>
   );
 };

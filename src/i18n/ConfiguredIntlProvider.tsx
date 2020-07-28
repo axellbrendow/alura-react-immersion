@@ -14,7 +14,7 @@ export let intl = createIntl(
   { locale: DEFAULT_LANGUAGE.locale, messages: {} },
   cache
 );
-export let fmt = intl.formatMessage;
+export let translate = intl.formatMessage;
 
 const getAppropriateLocale = () => {
   const urlLang = getUrlLang();
@@ -45,7 +45,7 @@ const ConfiguredIntlProvider = ({ children }: React.PropsWithChildren<{}>) => {
         const messages = flattenMessages(await translations.getOne(locale));
         document.documentElement.lang = locale;
         intl = createIntl({ locale, messages }, cache);
-        fmt = intl.formatMessage;
+        translate = intl.formatMessage;
         setTimeout(() => {
           setLoading(false);
         }, 1000);
