@@ -2,6 +2,7 @@ import React from "react";
 
 import Logo from "components/core/Logo";
 import ButtonLink from "components/core/ButtonLink";
+import LanguageList from "../LanguageList";
 
 import { translate } from "i18n/ConfiguredIntlProvider";
 
@@ -11,6 +12,7 @@ const Menu = () => {
   return (
     <S.Menu>
       <Logo />
+      <LanguageList />
       <ButtonLink>{translate({ id: "newVideo" })}</ButtonLink>
     </S.Menu>
   );

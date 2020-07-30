@@ -1,6 +1,6 @@
 import history from "utils/history";
 
-interface Language {
+export interface Language {
   locale: string;
   name: string;
 }
@@ -23,6 +23,15 @@ export const getLang = (locale: string) => LANGUAGES[locale.toLowerCase()];
 
 export const splitUrl = (url = history.location.pathname) => url.split("/");
 export const getUrlLang = (url = history.location.pathname) => splitUrl(url)[1];
+
+export const changeUrlLangTo = (
+  locale: string,
+  url = history.location.pathname
+) => {
+  const splittedUrl = splitUrl(url);
+  splittedUrl[1] = locale;
+  return splittedUrl.join("/");
+};
 
 export const langIsSupported = (lang: string) => lang in LANGUAGES;
 export const getLangLocale = (lang: string) => LANGUAGES[lang]?.locale;
