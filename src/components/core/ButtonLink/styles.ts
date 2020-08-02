@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled.button`
   color: var(--white);
   border: 1px solid var(--white);
   box-sizing: border-box;
@@ -15,8 +15,8 @@ export const ButtonLink = styled.a`
   display: inline-block;
   transition: opacity 0.3s;
 
-  :hover,
-  :focus {
+  &:hover,
+  &:focus {
     opacity: 0.5;
   }
 
