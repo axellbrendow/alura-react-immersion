@@ -4,6 +4,8 @@
 </a>
 </p>
 
+## [Link to the project](https://alura-react-immersion.vercel.app/)
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
