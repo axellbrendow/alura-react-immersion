@@ -1,3 +1,187 @@
 {
-  "newVideo": "New Video"
+  "newVideo": "New Video",
+  "categories": [
+    {
+      "title": "Front End",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "color": "#6BD1FF",
+      "extra_link": {
+        "text": "Front End formation at Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "title": "What a Front End developer does? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+          "description": "What is Front-end? Working in the area, the terms HTML, CSS and JavaScript are part of the developers' routine. But what they do, after all? Discover with Vanessa!"
+        },
+        {
+          "title": "SEO with React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+          "title": "Componentization with VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "title": "Stop hazarding a guess and learn the display: inline #01",
+          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        },
+        {
+          "title": "Template String: Interpolating string with JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "title": "What is the best programming language? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "title": "News about Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "title": "Base to learn the frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }
+      ]
+    },
+    {
+      "title": "Back End",
+      "color": "#00C86F",
+      "extra_link": {
+        "text": "Back End courses at Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "title": "Binary Tree-Level Path | Data Structures #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        },
+        {
+          "title": "Coders4Tips - S01E04: GitHub CLI - A New Experience at Github!",
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+        },
+        {
+          "title": "I programmated 4 robots that create videos on YouTube for me",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "title": "API: Programmers' Dictionary",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        },
+        {
+          "title": "Using Git the Right Way",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        }
+      ]
+    },
+    {
+      "title": "Data Science and Artificial Intelligence",
+      "color": "#9cd33b",
+      "extra_link": {
+        "text": "Data Science courses at Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "title": "Turing's Test",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "title": "What is Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "title": "Best way to learn Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "title": "How to enter in the Data Science market?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "title": "Films",
+      "color": "orange",
+      "videos": [
+        {
+          "title": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "title": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "title": "Arrival",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "title": "Groundhog Day",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "title": "Games",
+      "color": "red",
+      "extra_link": {
+        "text": "Games Formation at Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "title": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "title": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "title": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "title": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "title": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "title": "Learning to learn technology",
+      "color": "#6b5be2",
+      "extra_link": {
+        "text": "Course about learning at Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "title": "How to study better?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "title": "College",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "title": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "title": "Learning's magic",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "title": "How to learn to program?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
 }
