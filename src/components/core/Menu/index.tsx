@@ -13,7 +13,7 @@ const Menu = () => {
     <S.Menu>
       <Logo />
       <LanguageList />
-      <ButtonLink>{translate({ id: "newVideo" })}</ButtonLink>
+      <ButtonLink as="a">{translate({ id: "newVideo" })}</ButtonLink>
     </S.Menu>
   );
 };
