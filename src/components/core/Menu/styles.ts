@@ -21,6 +21,19 @@ export const Menu = styled.nav`
 
   @media (max-width: 800px) {
     height: 40px;
-    justify-content: center;
+    /* justify-content: center; */
+  }
+
+  @media (max-width: 800px) {
+    a.ButtonLink {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--primary);
+      border-radius: 0;
+      border: 0;
+      text-align: center;
+    }
   }
 `;

@@ -11,7 +11,11 @@ type PropsButton = {
 } & React.ButtonHTMLAttributes<{}> & { children?: React.ReactNode };
 
 const ButtonLink = (props: PropsAnchor | PropsButton) => {
-  return <S.ButtonLink {...props} />;
+  const className = props.className
+    ? `ButtonLink ${props.className}`
+    : "ButtonLink";
+
+  return <S.ButtonLink {...props} className={className} />;
 };
 
 export default ButtonLink;

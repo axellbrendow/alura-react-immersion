@@ -12,6 +12,12 @@ export const LanguageItem = styled.li`
   :not(:first-child) {
     margin-left: 40px;
   }
+
+  @media (max-width: 800px) {
+    :not(:first-child) {
+      margin-left: 10px;
+    }
+  }
 `;
 
 export const LanguageLink = styled(Link)`
