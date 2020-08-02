@@ -70,7 +70,7 @@ interface BannerMainContainerProps {
 }
 
 export const BannerMainContainer = styled.section<BannerMainContainerProps>`
-  height: 80vh;
+  height: 100vh;
   position: relative;
   color: #fff;
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
