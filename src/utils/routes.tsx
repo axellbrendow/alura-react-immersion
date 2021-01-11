@@ -1,15 +1,18 @@
 import React from "react";
-import { BrowserRouter, Router, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import { translate } from "i18n/ConfiguredIntlProvider";
 
 import Home from "pages/Home";
-
-import history from "./history";
+import RegisterVideo from "pages/register/Video";
 
 const Routes = () => (
   <BrowserRouter>
-    <Router history={history}>
+    <Switch>
       <Route exact path="/:lang?" component={Home} />
-    </Router>
+      <Route exact path="/:lang?/register/video" component={RegisterVideo} />
+      <Route component={() => <h1>{translate({ id: "pageNotFound" })}</h1>} />
+    </Switch>
   </BrowserRouter>
 );
 
